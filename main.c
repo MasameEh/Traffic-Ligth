@@ -52,7 +52,7 @@ int main(void)
 				seven_seg_write(SEG_PORT, green_counter);
 			}
 		}
-		_delay_ms(300);
+		_delay_ms(400);
 		//turn off the green led
 		dio_write_pin(LEDS_PORT, GREEN_LED_PIN, DIO_LEVEL_LOW);
 		//turn on the yellow led
@@ -69,7 +69,7 @@ int main(void)
 				seven_seg_write(SEG_PORT, yellow_counter);
 			}
 		}
-		_delay_ms(300);
+		_delay_ms(400);
 		//turn off the yellow led
 		dio_write_pin(LEDS_PORT, YELLOW_LED_PIN, DIO_LEVEL_LOW);
 		//turn on the red led
@@ -86,7 +86,7 @@ int main(void)
 				seven_seg_write(SEG_PORT, red_counter);
 			}
 		}
-		_delay_ms(300);
+		_delay_ms(400);
 		//turn off the red led
 		dio_write_pin(LEDS_PORT, RED_LED_PIN, DIO_LEVEL_LOW);
     }

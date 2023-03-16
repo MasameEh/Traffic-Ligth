@@ -22,7 +22,6 @@
 unsigned char counter = 0;
 
 
-
 int main(void)
 {
 	seven_seg_init(SEG_PORT);
